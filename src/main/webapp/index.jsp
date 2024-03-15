@@ -31,7 +31,7 @@
 						<div class="content">
 							<div class="inner">
 								<h1>version 0.0.10 </h1>
-								<h2>SYSTEM INFO</h2>
+								<h2>UPDATED SYSTEM INFO</h2>
 								<a  class="button special"><% out.println(request.getLocalAddr()); %></a>
 								<p>
 								<h3><% out.println("IP address  :  " + request.getLocalAddr()); %></h3>
