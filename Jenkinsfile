@@ -8,6 +8,7 @@ pipeline {
         }
        stage('Archieve') { 
             steps {
+                sh 'make'
                 archiveArtifacts artifacts: '**/*.war', fingerprint: true 
             }
        }
