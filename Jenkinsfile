@@ -19,10 +19,7 @@ pipeline {
     }
     stage('Deployment'){
       steps{
-        deploy adapters: [apache-tomcat-9.0.86(url:'http://localhost:8081/', 
-                                               credentialsId:'admin')],
-        war:'target/*.war',
-        contextPath: 'app'
+        deploy adapters: [apache-tomcat-9.0.86(url:'http://localhost:8081/', credentialsId:'admin')], war:'target/*.war',contextPath: 'app'
       }
     }
     stage('Notification'){
