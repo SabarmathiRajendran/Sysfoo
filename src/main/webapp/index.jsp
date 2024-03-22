@@ -31,6 +31,7 @@
 						<div class="content">
 							<div class="inner">
 								<h1>version 0.0.10 </h1>
+								<h2> Deployed in Tomcat Server </h2>
 								<h2>UPDATED NEW SYSTEM INFO</h2>
 								<a  class="button special"><% out.println(request.getLocalAddr()); %></a>
 								<p>
